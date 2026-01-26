@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-file_path = r"C:\Users\LENOVO\Desktop\jambsubjects\jamb_subjets_data.csv"  # Make sure this is in your repo
+file_path = "jamb_subjets_data.csv" 
 df = pd.read_csv(file_path)
 
 st.set_page_config(
@@ -46,3 +46,4 @@ if course:
 
 st.markdown("---")
 st.caption("Built with Python & Streamlit")
+
